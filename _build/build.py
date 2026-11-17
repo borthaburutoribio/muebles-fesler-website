@@ -4,7 +4,7 @@ import json, html, os
 
 BASE = 'https://borthaburutoribio.github.io/muebles-fesler-website/'
 WA = '5492983344855'
-V = '11'
+V = '12'
 
 # ------------------------------------------------------------------ ambientes
 # Productos reales sacados de los posteos de @mueblesfesler (2026). Sin precios: no los publican.
@@ -250,7 +250,7 @@ def page():
 <section class="historia" id="historia" aria-labelledby="h-historia">
   <div class="panel">
     <div class="p-left">
-      <h2 id="h-historia">Fernando abrió en 1998. Hoy atiende con Delfi.</h2>
+      <h2 id="h-historia">Desde 1998, de padre a hija</h2>
       <div class="p-photo">
         <img src="assets/img/fernando-y-delfina-arias-casa.webp" width="1090" height="1000" alt="Fernando Arias y su hija Delfina frente a Muebles Fesler, en Almirante Brown 324" loading="lazy">
       </div>

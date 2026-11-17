@@ -129,7 +129,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .verano { position: relative; min-height: 100svh; margin-top: 140px; display: grid; grid-template-columns: 5fr 7fr; align-items: end; padding: 0 var(--m) 140px; overflow: hidden; }
 .disc-wrap { grid-column: 2; grid-row: 1; position: relative; height: min(64vh, 640px); aspect-ratio: 1; justify-self: start; align-self: center; margin: 8vh 0 0 4%; }
 .disc { position: absolute; inset: 0; border-radius: 50%; background: var(--sage); transition: background-color .4s var(--ease); }
-.s-img { position: absolute; left: 50%; bottom: 6%; height: 92%; width: 73.6%; object-fit: cover; transform: translateX(-50%); transition: opacity .3s var(--ease); }
+.s-img { position: absolute; left: 13.2%; bottom: 6%; height: 92%; width: 73.6%; object-fit: cover; transition: opacity .3s var(--ease); }
 .s-img.swap { opacity: 0; }
 .s-fact { position: absolute; left: 0; right: 0; top: calc(100% + 20px); font-size: var(--s-b); max-width: 44ch; }
 .s-list { grid-column: 1; grid-row: 1; align-self: end; }
@@ -228,7 +228,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
   html { scroll-behavior: auto; }
   .rv { transform: none; transition: opacity .6s linear; }
   .track { animation: none; }
-  .house-frame img, .s-img { transition: opacity .3s linear; transform: none !important; }
+  .house-frame img { transition: opacity .3s linear; transform: none !important; }
+  .s-img { transition: opacity .3s linear; }
 }
 
 /* ---------- tablet ---------- */
@@ -262,7 +263,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .historia { padding: 120px 10px 0; }
   .panel { grid-template-columns: 1fr; min-height: 0; }
   .p-left { display: contents; }
-  .p-left h2 { padding: 36px 24px 0; order: 1; }
+  .p-left h2 { padding: 36px 24px 0; order: 1; font-size: var(--s-l); }
   .p-right { order: 2; padding: 32px 24px 40px; gap: 36px; }
   .p-photo { order: 3; width: 86vw; margin: 0 auto -22%; }
   .comprar { padding-top: 130px; }
@@ -294,4 +295,5 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .resumen th { padding: 14px 0 0; }
   .resumen td { padding: 2px 0 6px; font-size: var(--s-b); }
   .hero-act .btn { width: 100%; }
+  .hero h1 { font-size: 33px; }
 }
