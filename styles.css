@@ -263,7 +263,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .historia { padding: 120px 10px 0; }
   .panel { grid-template-columns: 1fr; min-height: 0; }
   .p-left { display: contents; }
-  .p-left h2 { padding: 36px 24px 0; order: 1; font-size: var(--s-l); }
+  .p-left h2 { padding: 36px 24px 0; order: 1; font-size: var(--s-l); max-width: none; }
   .p-right { order: 2; padding: 32px 24px 40px; gap: 36px; }
   .p-photo { order: 3; width: 86vw; margin: 0 auto -22%; }
   .comprar { padding-top: 130px; }

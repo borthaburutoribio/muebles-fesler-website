@@ -4,7 +4,7 @@ import json, html, os
 
 BASE = 'https://borthaburutoribio.github.io/muebles-fesler-website/'
 WA = '5492983344855'
-V = '13'
+V = '14'
 
 # ------------------------------------------------------------------ ambientes
 # Productos reales sacados de los posteos de @mueblesfesler (2026). Sin precios: no los publican.
