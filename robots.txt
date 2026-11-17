@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /assets/raw/
+Disallow: /_build/
+Disallow: /_fuente/
+Allow: /
+
+Sitemap: https://borthaburutoribio.github.io/muebles-fesler-website/sitemap.xml
